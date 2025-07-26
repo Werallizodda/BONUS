@@ -6,10 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body>
+<body class="p-[20px] lg:p-[0px]">
     <header>
         <nav>
-            <div class="max-w-[1200px] m-auto flex justify-between items-center">
+            <div class="max-w-[1200px] m-auto hidden lg:flex justify-between items-center">
                 <p>Сеть клиник Томской области</p>
                 <div class="flex gap-[10px] lg:w-[330px] items-center">
                     <img src="./photos/view 1.png" alt="">
@@ -22,6 +22,7 @@
             </div>
             <div class="max-w-[1200px] m-auto flex justify-between items-center mt-[20px]">
                 <img src="./photos/image 1 (1).png" alt="">
+                <div class="hidden lg:flex gap-[50px]">
                     <p>Врачи</p>
                     <p>Услуги</p>
                     <p>Диагностика</p>
@@ -31,6 +32,8 @@
                     <p>О клинике</p>
                     <p>Отзывы</p>
                     <p>Контакты</p>
+                </div>
+                <img class="flex lg:hidden" src="./photos/burger (1).png" alt="">
             </div>
             <div class="max-w-[1200px] m-auto flex gap-[3px] text-[12px] mt-[10px]">
                 <p>Главная</p>
@@ -38,6 +41,16 @@
                 <p>Направление</p>
             </div>
         </nav>
+        <section class="bg-[#F1F5F8]">
+            <div class="max-w-[1200px] m-auto flex flex-col lg:flex-row justify-between items-center">
+                <div class="flex flex-col gap-[20px]">
+                    <p class="text-3xl">Отоларингология</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus vitae aenean amet nibh lacus, habitasse fermentum, donec id. Nisl, mollis dolor nec id volutpat quis. </p>
+                    <button class="py-[10px] px-[100px] rounded-2xl bg-[#30A963]">Записаться</button>
+                </div>
+                <img src="./photos/Frame (36).png" alt="">
+            </div>
+        </section>
     </header>
 </body>
 </html>
